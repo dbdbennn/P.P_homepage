@@ -1,0 +1,57 @@
+/* 기본 설정 */
+:root{
+    --main-textcolor: hsl(0, 0%, 20%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+#header{
+    background-color: #8dbbdc;
+    box-shadow: 5px 5px 8px hsla(0, 0%, 0%, 0.106);
+}
+
+#navbar {
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2vh;
+    padding-right: 2vw;
+}
+
+.menu {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#menu-home {
+    color: #6894b5;
+}
+
+/* body contents */
+#main-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-content {
+    color:#0E3552;
+    font-weight: 800;
+    margin: 5vh 0 0 10vw;
+}
+
+/* introduce */
+.intrd {
+    margin: 10vh 10vw 0 0;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 5px 5px 8px hsla(0, 0%, 0%, 0.169);
+    border-radius: 30px;
+    padding: 2.5rem;
+    font-size: 20px;
+}
