@@ -39,7 +39,7 @@
 .all-content {
     margin-top: 5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #main-content{
     flex-wrap: wrap;
