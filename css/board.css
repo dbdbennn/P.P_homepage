@@ -1,0 +1,36 @@
+/* 기본 설정 */
+:root {
+    --main-textcolor: hsl(0, 0%, 20%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/* navbar */
+#header {
+    background-color: #8dbbdc;
+    box-shadow: 5px 5px 8px hsla(0, 0%, 0%, 0.106);
+}
+
+#navbar {
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2vh;
+    padding-right: 17vw;
+}
+
+.menu {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#menu-board {
+    color: #6894b5;
+}
